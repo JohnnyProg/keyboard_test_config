@@ -24,7 +24,7 @@
    &kp LCTRL &kp A   &kp S    &kp D      &kp F     &kp G     &kp LEFT_PARENTHESIS                    &kp RIGHT_PARENTHESIS  &kp H   &kp J   &kp K      &kp L    &kp SEMI   &kp SQT
    &kp LSHFT &kp Z   &kp X    &kp C      &kp V     &kp B                                                                    &kp N   &kp M    &kp COMMA &kp DOT  &kp FSLH   &kp RSHFT
    &kp X    &kp C   &kp V     &kp B      &kp B                                                                                      &kp N   &kp N     &kp M     &kp COMMA  &kp DOT
-   &kp LGUI &kp C   &kp SPACE &kp SPACE                                                                                        &kp RET   &kp RET   &RGUI      &kp RALT
+   &kp LGUI &kp C   &kp SPACE &kp SPACE                                                                                        &kp RET   &kp RET   &kp RGUI      &kp RALT
                         >;
                 };
 //                lower_layer {
