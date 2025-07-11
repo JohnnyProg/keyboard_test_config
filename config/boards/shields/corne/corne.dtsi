@@ -46,8 +46,10 @@ RC(5,0) RC(5,1) RC(5,2) RC(5,3)                                          RC(5,10
 
     };
 
-    &physical_layout0 {
+    
+};
+
+&physical_layout0 {
         kscan = <&kscan0>; // Label of the kscan node this layout uses
         transform = <&default_transform>; // Label of the matrix transform this layout uses
     };
-};
