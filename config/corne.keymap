@@ -10,7 +10,7 @@
 
 / {
         keymap {
-                compatible = "zmk,keymap";
+                compatible = "zmk,studio-config";
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
@@ -24,7 +24,7 @@
    &kp LCTRL &kp A   &kp S    &kp D      &kp F     &kp G     &kp LEFT_PARENTHESIS                    &kp RIGHT_PARENTHESIS  &kp H   &kp J   &kp K      &kp L    &kp SEMI   &kp SQT
    &kp LSHFT &kp Z   &kp X    &kp C      &kp V     &kp B                                                                    &kp N   &kp M    &kp COMMA &kp DOT  &kp FSLH   &kp RSHFT
    &kp TAB   &kp N1  &kp N2   &kp N3     &kp N4                                                                                     &kp N7  &kp N8     &kp N9   &kp N0     &kp BSPC  
-   &kp TAB   &kp Q   &kp W    &kp E                                                                                                         &kp I      &kp O    &kp P      &kp BSPC
+   &kp SPACE  &kp SPACE   &kp SPACE    &kp SPACE                                                                                                         &kp SPACE      &kp SPACE    &kp SPACE      &kp SPACE
    
    //&kp X    &kp C   &kp V     &kp B      &kp B                                                                                      &kp N   &kp N     &kp M     &kp COMMA  &kp DOT
    //&kp LGUI &kp C   &kp SPACE &kp SPACE                                                                                        &kp RET   &kp RET   &kp RGUI      &kp RALT
