@@ -10,8 +10,7 @@ if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT
 
 config ZMK_SPLIT
     default y
-
-config CONFIG_ZMK_SLEEP
+config ZMK_SLEEP
     default y
 
 if ZMK_DISPLAY
