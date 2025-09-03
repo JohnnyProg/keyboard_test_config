@@ -1,8 +1,19 @@
+config BT_BAS
+    default y
+config ZMK_BATTERY_REPORTING
+    default y
+
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
+    default y
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY
+    default y
+
+config
+
 if SHIELD_CORNE_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "Corne"
-
 
 endif
 
