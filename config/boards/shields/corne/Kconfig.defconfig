@@ -3,10 +3,7 @@ config BT_BAS
 config ZMK_BATTERY_REPORTING
     default y
 
-config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
-    default y
-config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY
-    default y
+
 
 
 if SHIELD_CORNE_LEFT
@@ -75,8 +72,12 @@ config BT_MAX_CONN
 
 # Set this to the same number as BT_MAX_CONN
 config BT_MAX_PAIRED
-    default 6
+    default 4
 
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
+    default y
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY
+    default y
 endif
 
 
